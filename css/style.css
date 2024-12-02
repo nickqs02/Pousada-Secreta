@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.limitar_secao {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.secao_topo {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+}
+
+.container_topo {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.topo_logo {
+    flex: 1 0 60%;
+}
+
+.topo_logo a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    color: #393d3e;
+}
+
+.topo_logo span {
+    color: #7c9abe;
+}
+
+.topo_links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.topo_links a {
+    text-decoration: none;
+    color: #393d3e;
+}
+
+.secao_banner {
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/img-fundo.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao_banner div {
+    background-color: #06a18f90;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.secao_banner div h1 {
+    font-size: 80px;
+    margin: 20px 0 35px 0;
+}
+
+.secao_banner div p {
+    font-size: 40px;
+}
+
+.secao_container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-top: 100px;
+    text-align: center; 
+}
+
+.container_descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container_descricao h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #393d3e;
+}
+
+.container_descricao p {
+    font-size: 16px;
+    color: #4d5c61;
+}
+
+.secao_cards_quartos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.card_quarto {
+    flex: 1 0 300px;
+    text-align: center;
+    border-bottom: 2px solid #42776f;
+}
+
+.card_quarto img {
+    width: 100%;
+}
+
+.card_quarto a {
+    text-decoration: none;
+}
+
+.card_quarto p {
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #393d3e;
+}
+
+iframe {
+    width: 100%;
+}
+
+.secao_cards_sobre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.card_sobre {
+    flex: 1 0 350px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: left;
+}
+
+.container_card_descricao {
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: #393d3e;
+}
+
+.container_card_img {
+    width: 30%;
+    height: 100%;
+}
+
+.container_card_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.secao_rodape {
+    background-color: #49997c;
+    color: #fff;
+}
+
+.container_info {
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.container_info div {
+    flex: 1 0 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container_info h4 {
+    font-size: 22px;
+}
+
+.container_info div a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.container_info div img {
+    width: 40px;
+    height: 40px;
+}
+
+.container_copyright {
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #3b7863;
+}
